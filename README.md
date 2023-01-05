@@ -97,3 +97,7 @@ db_client_connections_use_time_milliseconds_bucket{db_system="redis",otel_scope_
 db_client_connections_use_time_milliseconds_sum{db_system="redis",otel_scope_name="redisotel",otel_scope_version="8.11.5",pool_name="127.0.0.1:7000",status="ok",type="command"} 0
 db_client_connections_use_time_milliseconds_count{db_system="redis",otel_scope_name="redisotel",otel_scope_version="8.11.5",pool_name="127.0.0.1:7000",status="ok",type="command"} 5
 ```
+
+## Refrences
+
+- https://github.com/go-redis/redis/tree/master/extra/redisotel
